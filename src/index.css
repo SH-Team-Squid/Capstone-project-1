@@ -118,3 +118,7 @@ footer p {
     bottom: 0px;
     width: 98%;
 }
+
+@media screen and (max-width: 800px) {
+    
+}
