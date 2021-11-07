@@ -2,6 +2,8 @@
 
 Our goal was to recreate Google Homepage by replacing the Google logo with the Sidehustle logo and changing the logo based on the input value.
 
+![Capstone-Project](screenshot.png)
+
 ## Tech used
 
 -  React js
@@ -10,7 +12,7 @@ Our goal was to recreate Google Homepage by replacing the Google logo with the S
 
 -  We have two folder, 'components' and 'img'
 -  The components folder contains three components, "Header, Footer, Main" and also houses the logic.
--  The image folder contains the images used in the project.
+-  The image folder contains the assets used in the project.
 -  The 'Header' component renders the header of the page and the 'Footer' renders the footer.
 -  The 'Main' component contains the jsx that renders the sidehustle logo, the input box and also the logic that changes the logo.
 -  We were able to change the logo to the current input value by assigning the value to a state and updating it with setState.
