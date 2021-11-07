@@ -1,124 +1,129 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
 }
 .container {
-    margin: 0;
+	margin: 0;
 }
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 header ul {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 header ul li {
-    list-style-type: none;
-    display: inline-block;
+	list-style-type: none;
+	display: inline-block;
 }
 header ul li a {
-    text-decoration: none;
-    color: #000;
-    margin-right: 20px;
-    padding: 10px;
+	text-decoration: none;
+	color: #000;
+	margin-right: 20px;
+	padding: 10px;
 }
 header ul li a.user {
-    margin-right: 30px;
-    border-radius: 50%;
+	margin-right: 30px;
+	border-radius: 50%;
 }
 header ul img.apps {
-    padding-right: 20px;
+	padding-right: 20px;
 }
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
 }
 section .search-bar {
-    padding: 10px 15px;
-    border: 1px solid #d7dde4;
-    margin: 30px 0;
-    min-width: 40%;
-    display: flex;
-    border-radius: 30px;
+	width: 100%;
+	max-width: 500px;
+	padding: 10px 15px;
+	border: 1px solid #d7dde4;
+	margin: 30px 0;
+	min-width: 40%;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	border-radius: 30px;
 }
 section p {
-    font-size: 30px;
+	font-size: 30px;
 }
 section input {
-    border: none;
-    outline: none;
-    flex: 1;
+	border: none;
+	outline: none;
+	flex: 1;
 }
-section .search-bar:hover  {
-    box-shadow: 2px 2px 5px rgb(177, 179, 193);
+section .search-bar:hover {
+	box-shadow: 2px 2px 5px rgb(177, 179, 193);
 }
 section .texts {
-    display: flex;
+	display: flex;
 }
-section .texts p {
-    margin: 0 10px;
-    padding: 10px 30px;
-    font-size: 14px;
-    background: rgb(246, 247, 249);
+section .texts button {
+	all: unset;
+	margin: 0 10px;
+	padding: 10px 30px;
+	font-size: 14px;
+	background: rgb(246, 247, 249);
+	cursor: pointer;
 }
 section .languages {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 section .languages p {
-    font-size: 13px;
+	font-size: 13px;
 }
 section .languages p span {
-    padding: 0 10px;
-    color: rgb(17, 65, 206);
-    cursor: pointer;
+	padding: 0 10px;
+	color: rgb(17, 65, 206);
+	cursor: pointer;
 }
 footer {
-    width: 98%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 15px 1%;
-    background: rgb(244, 245, 247);
+	width: 98%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 15px 1%;
+	background: rgb(244, 245, 247);
 }
 footer .lists {
-    width: 100%;
-    display: flex;
+	width: 100%;
+	display: flex;
 }
 footer ul {
-    margin: 0;
-    padding: 0;
-    width: 50%;
+	margin: 0;
+	padding: 0;
+	width: 50%;
 }
 footer ul.settings {
-    display: flex;
-    justify-content: flex-end;
+	display: flex;
+	justify-content: flex-end;
 }
 footer ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0 20px;
-    color: rgb(100, 102, 116);
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 20px;
+	color: rgb(100, 102, 116);
 }
 footer p {
-    flex: 1;
-    text-align: center;
-    color: rgb(100, 102, 116);
-    position: absolute;
-    bottom: 0px;
-    width: 98%;
+	flex: 1;
+	text-align: center;
+	color: rgb(100, 102, 116);
+	position: absolute;
+	bottom: 0px;
+	width: 98%;
 }
 
 @media screen and (max-width: 800px) {
-    
 }
