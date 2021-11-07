@@ -5,16 +5,17 @@ import squid from '../img/squid.svg'
 const Header = () => {
     return (
         <header>
-            <ul>
+            <ul className="side_nav">
                 <li><a href="/">About</a></li>
-                <li><a href="/">Store</a></li>
             </ul>
-
             <ul>
-                <li><a href="/">Gmail</a></li>
-                <li><a href="/">Images</a></li>
-                <img src={Apps} alt="side hustle apps" className="apps" title="apps"/>
-                <li><a href="/" className="user"><img src={squid} alt="squid" title="Team Squid" width="50px"/></a></li>
+                <div>
+                    <li><a href="/">Gmail</a></li>
+                    <li><a href="/">Images</a></li>
+                </div>
+                <li className="user">
+                    <img src={Apps} alt="side hustle apps" className="apps" title="apps"/><a href="/"><img src={squid} alt="squid" title="Team Squid" width="50px"/></a>
+                </li>
             </ul>
         </header>
     )

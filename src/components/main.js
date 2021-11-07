@@ -15,7 +15,7 @@ const Main = () => {
 			{value !== '' ? (
 				<p>{value}</p>
 			) : (
-				<img src={sh_logo} alt='side_hustle_ng' width='35%' />
+				<img src={sh_logo} alt='side_hustle_ng' className='sh_logo' />
 			)}
 			<div className='search-bar'>
 				<img src={search} alt='search-icon' />
@@ -23,12 +23,13 @@ const Main = () => {
 				<img src={speech} alt='speech-icon' width='13' />
 			</div>
 			<div className='texts'>
-				<button>Google Search</button>
-				<button>I'm Feeling lucky</button>
+				<p>Google Search</p>
+				<p>I'm Feeling lucky</p>
 			</div>
 			<div className='languages'>
+				<p>Google Offered in: </p>
 				<p>
-					Google Offered in: <span>Hausa</span>
+					<span>Hausa</span>
 					<span>Igbo</span>
 					<span>Ede Yoruba</span>
 					<span>Nigerian Pidgin</span>
