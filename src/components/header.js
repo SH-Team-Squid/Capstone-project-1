@@ -7,7 +7,6 @@ const Header = () => {
         <header>
             <ul className="side_nav">
                 <li><a href="/">About</a></li>
-                <li><a href="/">About</a></li>
             </ul>
             <ul>
                 <div>

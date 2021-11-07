@@ -143,6 +143,9 @@ footer p {
     bottom: 0px;
     width: 98%;
 }
+footer .about {
+    display: none;
+}
 
 /*
 -----Responsiveness to smaller screen devices
@@ -167,14 +170,14 @@ footer p {
     }
 }
 @media screen and (max-width: 550px) {
+    section {
+        padding: 10% 0;
+    }
     section img.sh_logo {
         width: 70%;
     }
     section .search-bar {
-        min-width: 90%;
-    }
-    section .search-bar input {
-        width: 70%;
+        min-width: 80%;
     }
     header ul.side_nav {
         display: none;
@@ -209,6 +212,12 @@ footer p {
         justify-content: center;
     }
     section .texts {
+        display: none;
+    }
+    footer .about {
+        display: inline-block;
+    }
+    footer .how {
         display: none;
     }
 }
