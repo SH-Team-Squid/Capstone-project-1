@@ -7,6 +7,10 @@ body {
 .container {
     margin: 0;
 }
+
+/*
+-----header navigation styles
+*/
 header {
     display: flex;
     align-items: center;
@@ -37,6 +41,10 @@ header ul li.user {
 header ul img.apps {
     margin-top: 0;
 }
+
+/*
+-----main section styles
+*/
 section {
     display: flex;
     flex-direction: column;
@@ -88,6 +96,10 @@ section .languages p span {
     color: rgb(17, 65, 206);
     cursor: pointer;
 }
+
+/*
+-----footer styles
+*/
 footer {
     width: 98%;
     position: absolute;
@@ -129,6 +141,9 @@ footer p {
     width: 98%;
 }
 
+/*
+-----Responsiveness to smaller screen devices
+*/
 @media screen and (max-width: 850px) {
     footer p {
         position: initial;
