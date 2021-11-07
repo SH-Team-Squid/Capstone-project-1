@@ -38,6 +38,9 @@ header ul li.user {
     display: flex;
     align-items: center;
 }
+header ul li.user {
+    padding: 0;
+}
 header ul img.apps {
     margin-top: 0;
 }
@@ -177,7 +180,7 @@ footer p {
         display: none;
     }
     header ul {
-        padding: 0;
+        padding: 5px;
         width: 100%;
         justify-content: space-between;
     }
@@ -186,15 +189,18 @@ footer p {
     }
     header ul li a {
         padding: 10px;
-        margin: 0 10px;
+        margin: 0;
     }
     header ul li.user {
         padding-right: 0;
     }
+    header ul li.user a {
+        padding: 0;
+    }
 }
 @media screen and (max-width: 450px) {
     section img.sh_logo {
-        width: 50%;
+        width: 70%;
     }
     section .languages {
         width: 90%;
