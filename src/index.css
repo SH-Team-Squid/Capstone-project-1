@@ -200,6 +200,9 @@ footer .about {
     header ul li.user a {
         padding: 0;
     }
+    footer {
+        position: initial;
+    }
 }
 @media screen and (max-width: 450px) {
     section img.sh_logo {
